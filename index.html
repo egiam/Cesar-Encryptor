@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cesar Encryptor</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Custom JS -->
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Cesar Encryptor</h1>
+        <form id="cifrador" autocomplete="off">
+            <input type="text" name="text" placeholder="enter the text" spellcheck="false" id="input-original" />
+        </form>
+        <div id="resultado"></div>
+        <div class="rango">
+            <input type="range" id="rango" value="10" min="1" max="25" oninput="this.nextElementSibling.value = this.value" />
+            <output>10</output>
+        </div>
+    </main>
+</body>
+
+</html>
